@@ -1,0 +1,1736 @@
+Created by PLY version 3.11 (http://www.dabeaz.com/ply)
+
+Grammar
+
+Rule 0     S' -> phrase
+Rule 1     phrase -> V1
+Rule 2     phrase -> V2
+Rule 3     phrase -> V3
+Rule 4     phrase -> V4
+Rule 5     phrase -> V5
+Rule 6     phrase -> V6
+Rule 7     phrase -> V7
+Rule 8     phrase -> V8
+Rule 9     phrase -> V9
+Rule 10    phrase -> V10
+Rule 11    phrase -> V11
+Rule 12    phrase -> V12
+Rule 13    phrase -> V13
+Rule 14    phrase -> V14
+Rule 15    phrase -> V15
+Rule 16    phrase -> V16
+Rule 17    phrase -> V17
+Rule 18    phrase -> V18
+Rule 19    phrase -> V19
+Rule 20    V1 -> FI3L 7ARF IsmMajror ISM IsmMawsol FI3L
+Rule 21    V1 -> V1 V2
+Rule 22    V2 -> C
+Rule 23    V2 -> V2 V3
+Rule 24    V3 -> FI3L 7ARF MOUBTADAA KHABAR
+Rule 25    V3 -> V3 V4
+Rule 26    V4 -> IsmMawsol C
+Rule 27    V4 -> V4 V5
+Rule 28    V5 -> T T IsmMawsol 7ARF FI3L
+Rule 29    V5 -> V5 V6
+Rule 30    V6 -> 7ARF 7ARF ISM 7ARF FI3L
+Rule 31    V6 -> V6 V7
+Rule 32    V7 -> 7ARF FI3L DAMIR FI3L
+Rule 33    V7 -> V7 V8
+Rule 34    V8 -> 7ARF 7ARF ISM ISM
+Rule 35    V8 -> V8 V9
+Rule 36    V9 -> 7ARF FI3L DAMIR IsmMawsol FI3L
+Rule 37    V9 -> V9 V10
+Rule 38    V10 -> MAF3OULBIH DARFZ FI3L
+Rule 39    V10 -> V10 V11
+Rule 40    V11 -> 7ARF FI3L DAMIR 7ARF FI3L J
+Rule 41    V11 -> V11 V12
+Rule 42    V12 -> 7ARF FI3L J
+Rule 43    V12 -> V12 V13
+Rule 44    V13 -> 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L
+Rule 45    V13 -> V13 V14
+Rule 46    V14 -> 7ARF 7ARF FI3L 7ARF 7ARF ISM FI3L
+Rule 47    V14 -> V14 V15
+Rule 48    V15 -> 7ARF 7ARF 7ARF 7ARF FI3L 7ARF FI3L J
+Rule 49    V15 -> V15 V16
+Rule 50    V16 -> BADAL NA3T NA3T
+Rule 51    V16 -> V16 V17
+Rule 52    V17 -> 7ARF 7ARF FI3L MAF3OULBIH DAMIR
+Rule 53    V17 -> V17 V18
+Rule 54    V18 -> 7ARF FI3L MAF3OULBIH
+Rule 55    V18 -> V18 V19
+Rule 56    V19 -> 7ARF 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L
+Rule 57    C -> T J
+Rule 58    C -> T T J
+Rule 59    T -> FI3L
+Rule 60    T -> ISM
+Rule 61    J -> 7ARF IsmMajror
+
+Terminals, with rules where they appear
+
+7ARF                 : 20 24 28 30 30 30 32 34 34 36 40 40 42 44 44 44 46 46 46 46 48 48 48 48 48 52 52 54 56 56 56 56 61
+BADAL                : 50
+DAMIR                : 32 36 40 44 52 56
+DARFZ                : 38
+FI3L                 : 20 20 24 28 30 32 32 36 36 38 40 40 42 44 44 44 46 46 48 48 52 54 56 56 56 59
+ISM                  : 20 30 34 34 46 60
+IsmMajror            : 20 61
+IsmMawsol            : 20 26 28 36
+KHABAR               : 24
+MAF3OULBIH           : 38 52 54
+MOUBTADAA            : 24
+NA3T                 : 50 50
+error                : 
+
+Nonterminals, with rules where they appear
+
+C                    : 22 26
+J                    : 40 42 48 57 58
+T                    : 28 28 57 58 58
+V1                   : 1 21
+V10                  : 10 37 39
+V11                  : 11 39 41
+V12                  : 12 41 43
+V13                  : 13 43 45
+V14                  : 14 45 47
+V15                  : 15 47 49
+V16                  : 16 49 51
+V17                  : 17 51 53
+V18                  : 18 53 55
+V19                  : 19 55
+V2                   : 2 21 23
+V3                   : 3 23 25
+V4                   : 4 25 27
+V5                   : 5 27 29
+V6                   : 6 29 31
+V7                   : 7 31 33
+V8                   : 8 33 35
+V9                   : 9 35 37
+phrase               : 0
+
+Parsing method: LALR
+
+state 0
+
+    (0) S' -> . phrase
+    (1) phrase -> . V1
+    (2) phrase -> . V2
+    (3) phrase -> . V3
+    (4) phrase -> . V4
+    (5) phrase -> . V5
+    (6) phrase -> . V6
+    (7) phrase -> . V7
+    (8) phrase -> . V8
+    (9) phrase -> . V9
+    (10) phrase -> . V10
+    (11) phrase -> . V11
+    (12) phrase -> . V12
+    (13) phrase -> . V13
+    (14) phrase -> . V14
+    (15) phrase -> . V15
+    (16) phrase -> . V16
+    (17) phrase -> . V17
+    (18) phrase -> . V18
+    (19) phrase -> . V19
+    (20) V1 -> . FI3L 7ARF IsmMajror ISM IsmMawsol FI3L
+    (21) V1 -> . V1 V2
+    (22) V2 -> . C
+    (23) V2 -> . V2 V3
+    (24) V3 -> . FI3L 7ARF MOUBTADAA KHABAR
+    (25) V3 -> . V3 V4
+    (26) V4 -> . IsmMawsol C
+    (27) V4 -> . V4 V5
+    (28) V5 -> . T T IsmMawsol 7ARF FI3L
+    (29) V5 -> . V5 V6
+    (30) V6 -> . 7ARF 7ARF ISM 7ARF FI3L
+    (31) V6 -> . V6 V7
+    (32) V7 -> . 7ARF FI3L DAMIR FI3L
+    (33) V7 -> . V7 V8
+    (34) V8 -> . 7ARF 7ARF ISM ISM
+    (35) V8 -> . V8 V9
+    (36) V9 -> . 7ARF FI3L DAMIR IsmMawsol FI3L
+    (37) V9 -> . V9 V10
+    (38) V10 -> . MAF3OULBIH DARFZ FI3L
+    (39) V10 -> . V10 V11
+    (40) V11 -> . 7ARF FI3L DAMIR 7ARF FI3L J
+    (41) V11 -> . V11 V12
+    (42) V12 -> . 7ARF FI3L J
+    (43) V12 -> . V12 V13
+    (44) V13 -> . 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L
+    (45) V13 -> . V13 V14
+    (46) V14 -> . 7ARF 7ARF FI3L 7ARF 7ARF ISM FI3L
+    (47) V14 -> . V14 V15
+    (48) V15 -> . 7ARF 7ARF 7ARF 7ARF FI3L 7ARF FI3L J
+    (49) V15 -> . V15 V16
+    (50) V16 -> . BADAL NA3T NA3T
+    (51) V16 -> . V16 V17
+    (52) V17 -> . 7ARF 7ARF FI3L MAF3OULBIH DAMIR
+    (53) V17 -> . V17 V18
+    (54) V18 -> . 7ARF FI3L MAF3OULBIH
+    (55) V18 -> . V18 V19
+    (56) V19 -> . 7ARF 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L
+    (57) C -> . T J
+    (58) C -> . T T J
+    (59) T -> . FI3L
+    (60) T -> . ISM
+
+    FI3L            shift and go to state 21
+    IsmMawsol       shift and go to state 24
+    7ARF            shift and go to state 22
+    MAF3OULBIH      shift and go to state 27
+    BADAL           shift and go to state 28
+    ISM             shift and go to state 23
+
+    phrase                         shift and go to state 1
+    V1                             shift and go to state 2
+    V2                             shift and go to state 3
+    V3                             shift and go to state 4
+    V4                             shift and go to state 5
+    V5                             shift and go to state 6
+    V6                             shift and go to state 7
+    V7                             shift and go to state 8
+    V8                             shift and go to state 9
+    V9                             shift and go to state 10
+    V10                            shift and go to state 11
+    V11                            shift and go to state 12
+    V12                            shift and go to state 13
+    V13                            shift and go to state 14
+    V14                            shift and go to state 15
+    V15                            shift and go to state 16
+    V16                            shift and go to state 17
+    V17                            shift and go to state 18
+    V18                            shift and go to state 19
+    V19                            shift and go to state 20
+    C                              shift and go to state 25
+    T                              shift and go to state 26
+
+state 1
+
+    (0) S' -> phrase .
+
+
+
+state 2
+
+    (1) phrase -> V1 .
+    (21) V1 -> V1 . V2
+    (22) V2 -> . C
+    (23) V2 -> . V2 V3
+    (57) C -> . T J
+    (58) C -> . T T J
+    (59) T -> . FI3L
+    (60) T -> . ISM
+
+    $end            reduce using rule 1 (phrase -> V1 .)
+    FI3L            shift and go to state 31
+    ISM             shift and go to state 23
+
+    V2                             shift and go to state 29
+    C                              shift and go to state 25
+    T                              shift and go to state 30
+
+state 3
+
+    (2) phrase -> V2 .
+    (23) V2 -> V2 . V3
+    (24) V3 -> . FI3L 7ARF MOUBTADAA KHABAR
+    (25) V3 -> . V3 V4
+
+    $end            reduce using rule 2 (phrase -> V2 .)
+    FI3L            shift and go to state 33
+
+    V3                             shift and go to state 32
+
+state 4
+
+    (3) phrase -> V3 .
+    (25) V3 -> V3 . V4
+    (26) V4 -> . IsmMawsol C
+    (27) V4 -> . V4 V5
+
+    $end            reduce using rule 3 (phrase -> V3 .)
+    IsmMawsol       shift and go to state 24
+
+    V4                             shift and go to state 34
+
+state 5
+
+    (4) phrase -> V4 .
+    (27) V4 -> V4 . V5
+    (28) V5 -> . T T IsmMawsol 7ARF FI3L
+    (29) V5 -> . V5 V6
+    (59) T -> . FI3L
+    (60) T -> . ISM
+
+    $end            reduce using rule 4 (phrase -> V4 .)
+    FI3L            shift and go to state 31
+    ISM             shift and go to state 23
+
+    V5                             shift and go to state 35
+    T                              shift and go to state 36
+
+state 6
+
+    (5) phrase -> V5 .
+    (29) V5 -> V5 . V6
+    (30) V6 -> . 7ARF 7ARF ISM 7ARF FI3L
+    (31) V6 -> . V6 V7
+
+    $end            reduce using rule 5 (phrase -> V5 .)
+    7ARF            shift and go to state 38
+
+    V6                             shift and go to state 37
+
+state 7
+
+    (6) phrase -> V6 .
+    (31) V6 -> V6 . V7
+    (32) V7 -> . 7ARF FI3L DAMIR FI3L
+    (33) V7 -> . V7 V8
+
+    $end            reduce using rule 6 (phrase -> V6 .)
+    7ARF            shift and go to state 40
+
+    V7                             shift and go to state 39
+
+state 8
+
+    (7) phrase -> V7 .
+    (33) V7 -> V7 . V8
+    (34) V8 -> . 7ARF 7ARF ISM ISM
+    (35) V8 -> . V8 V9
+
+    $end            reduce using rule 7 (phrase -> V7 .)
+    7ARF            shift and go to state 42
+
+    V8                             shift and go to state 41
+
+state 9
+
+    (8) phrase -> V8 .
+    (35) V8 -> V8 . V9
+    (36) V9 -> . 7ARF FI3L DAMIR IsmMawsol FI3L
+    (37) V9 -> . V9 V10
+
+    $end            reduce using rule 8 (phrase -> V8 .)
+    7ARF            shift and go to state 44
+
+    V9                             shift and go to state 43
+
+state 10
+
+    (9) phrase -> V9 .
+    (37) V9 -> V9 . V10
+    (38) V10 -> . MAF3OULBIH DARFZ FI3L
+    (39) V10 -> . V10 V11
+
+    $end            reduce using rule 9 (phrase -> V9 .)
+    MAF3OULBIH      shift and go to state 27
+
+    V10                            shift and go to state 45
+
+state 11
+
+    (10) phrase -> V10 .
+    (39) V10 -> V10 . V11
+    (40) V11 -> . 7ARF FI3L DAMIR 7ARF FI3L J
+    (41) V11 -> . V11 V12
+
+    $end            reduce using rule 10 (phrase -> V10 .)
+    7ARF            shift and go to state 47
+
+    V11                            shift and go to state 46
+
+state 12
+
+    (11) phrase -> V11 .
+    (41) V11 -> V11 . V12
+    (42) V12 -> . 7ARF FI3L J
+    (43) V12 -> . V12 V13
+
+    $end            reduce using rule 11 (phrase -> V11 .)
+    7ARF            shift and go to state 49
+
+    V12                            shift and go to state 48
+
+state 13
+
+    (12) phrase -> V12 .
+    (43) V12 -> V12 . V13
+    (44) V13 -> . 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L
+    (45) V13 -> . V13 V14
+
+    $end            reduce using rule 12 (phrase -> V12 .)
+    7ARF            shift and go to state 51
+
+    V13                            shift and go to state 50
+
+state 14
+
+    (13) phrase -> V13 .
+    (45) V13 -> V13 . V14
+    (46) V14 -> . 7ARF 7ARF FI3L 7ARF 7ARF ISM FI3L
+    (47) V14 -> . V14 V15
+
+    $end            reduce using rule 13 (phrase -> V13 .)
+    7ARF            shift and go to state 53
+
+    V14                            shift and go to state 52
+
+state 15
+
+    (14) phrase -> V14 .
+    (47) V14 -> V14 . V15
+    (48) V15 -> . 7ARF 7ARF 7ARF 7ARF FI3L 7ARF FI3L J
+    (49) V15 -> . V15 V16
+
+    $end            reduce using rule 14 (phrase -> V14 .)
+    7ARF            shift and go to state 55
+
+    V15                            shift and go to state 54
+
+state 16
+
+    (15) phrase -> V15 .
+    (49) V15 -> V15 . V16
+    (50) V16 -> . BADAL NA3T NA3T
+    (51) V16 -> . V16 V17
+
+    $end            reduce using rule 15 (phrase -> V15 .)
+    BADAL           shift and go to state 28
+
+    V16                            shift and go to state 56
+
+state 17
+
+    (16) phrase -> V16 .
+    (51) V16 -> V16 . V17
+    (52) V17 -> . 7ARF 7ARF FI3L MAF3OULBIH DAMIR
+    (53) V17 -> . V17 V18
+
+    $end            reduce using rule 16 (phrase -> V16 .)
+    7ARF            shift and go to state 58
+
+    V17                            shift and go to state 57
+
+state 18
+
+    (17) phrase -> V17 .
+    (53) V17 -> V17 . V18
+    (54) V18 -> . 7ARF FI3L MAF3OULBIH
+    (55) V18 -> . V18 V19
+
+    $end            reduce using rule 17 (phrase -> V17 .)
+    7ARF            shift and go to state 60
+
+    V18                            shift and go to state 59
+
+state 19
+
+    (18) phrase -> V18 .
+    (55) V18 -> V18 . V19
+    (56) V19 -> . 7ARF 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L
+
+    $end            reduce using rule 18 (phrase -> V18 .)
+    7ARF            shift and go to state 62
+
+    V19                            shift and go to state 61
+
+state 20
+
+    (19) phrase -> V19 .
+
+    $end            reduce using rule 19 (phrase -> V19 .)
+
+
+state 21
+
+    (20) V1 -> FI3L . 7ARF IsmMajror ISM IsmMawsol FI3L
+    (24) V3 -> FI3L . 7ARF MOUBTADAA KHABAR
+    (59) T -> FI3L .
+
+  ! shift/reduce conflict for 7ARF resolved as shift
+    7ARF            shift and go to state 63
+    FI3L            reduce using rule 59 (T -> FI3L .)
+    ISM             reduce using rule 59 (T -> FI3L .)
+
+  ! 7ARF            [ reduce using rule 59 (T -> FI3L .) ]
+
+
+state 22
+
+    (30) V6 -> 7ARF . 7ARF ISM 7ARF FI3L
+    (32) V7 -> 7ARF . FI3L DAMIR FI3L
+    (34) V8 -> 7ARF . 7ARF ISM ISM
+    (36) V9 -> 7ARF . FI3L DAMIR IsmMawsol FI3L
+    (40) V11 -> 7ARF . FI3L DAMIR 7ARF FI3L J
+    (42) V12 -> 7ARF . FI3L J
+    (44) V13 -> 7ARF . FI3L DAMIR 7ARF FI3L 7ARF FI3L
+    (46) V14 -> 7ARF . 7ARF FI3L 7ARF 7ARF ISM FI3L
+    (48) V15 -> 7ARF . 7ARF 7ARF 7ARF FI3L 7ARF FI3L J
+    (52) V17 -> 7ARF . 7ARF FI3L MAF3OULBIH DAMIR
+    (54) V18 -> 7ARF . FI3L MAF3OULBIH
+    (56) V19 -> 7ARF . 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L
+
+    7ARF            shift and go to state 64
+    FI3L            shift and go to state 65
+
+
+state 23
+
+    (60) T -> ISM .
+
+    FI3L            reduce using rule 60 (T -> ISM .)
+    ISM             reduce using rule 60 (T -> ISM .)
+    7ARF            reduce using rule 60 (T -> ISM .)
+    IsmMawsol       reduce using rule 60 (T -> ISM .)
+
+
+state 24
+
+    (26) V4 -> IsmMawsol . C
+    (57) C -> . T J
+    (58) C -> . T T J
+    (59) T -> . FI3L
+    (60) T -> . ISM
+
+    FI3L            shift and go to state 31
+    ISM             shift and go to state 23
+
+    C                              shift and go to state 66
+    T                              shift and go to state 30
+
+state 25
+
+    (22) V2 -> C .
+
+    FI3L            reduce using rule 22 (V2 -> C .)
+    $end            reduce using rule 22 (V2 -> C .)
+    ISM             reduce using rule 22 (V2 -> C .)
+
+
+state 26
+
+    (28) V5 -> T . T IsmMawsol 7ARF FI3L
+    (57) C -> T . J
+    (58) C -> T . T J
+    (59) T -> . FI3L
+    (60) T -> . ISM
+    (61) J -> . 7ARF IsmMajror
+
+    FI3L            shift and go to state 31
+    ISM             shift and go to state 23
+    7ARF            shift and go to state 68
+
+    T                              shift and go to state 67
+    J                              shift and go to state 69
+
+state 27
+
+    (38) V10 -> MAF3OULBIH . DARFZ FI3L
+
+    DARFZ           shift and go to state 70
+
+
+state 28
+
+    (50) V16 -> BADAL . NA3T NA3T
+
+    NA3T            shift and go to state 71
+
+
+state 29
+
+    (21) V1 -> V1 V2 .
+    (23) V2 -> V2 . V3
+    (24) V3 -> . FI3L 7ARF MOUBTADAA KHABAR
+    (25) V3 -> . V3 V4
+
+  ! shift/reduce conflict for FI3L resolved as shift
+    ISM             reduce using rule 21 (V1 -> V1 V2 .)
+    $end            reduce using rule 21 (V1 -> V1 V2 .)
+    FI3L            shift and go to state 33
+
+  ! FI3L            [ reduce using rule 21 (V1 -> V1 V2 .) ]
+
+    V3                             shift and go to state 32
+
+state 30
+
+    (57) C -> T . J
+    (58) C -> T . T J
+    (61) J -> . 7ARF IsmMajror
+    (59) T -> . FI3L
+    (60) T -> . ISM
+
+    7ARF            shift and go to state 68
+    FI3L            shift and go to state 31
+    ISM             shift and go to state 23
+
+    T                              shift and go to state 72
+    J                              shift and go to state 69
+
+state 31
+
+    (59) T -> FI3L .
+
+    7ARF            reduce using rule 59 (T -> FI3L .)
+    FI3L            reduce using rule 59 (T -> FI3L .)
+    ISM             reduce using rule 59 (T -> FI3L .)
+    IsmMawsol       reduce using rule 59 (T -> FI3L .)
+
+
+state 32
+
+    (23) V2 -> V2 V3 .
+    (25) V3 -> V3 . V4
+    (26) V4 -> . IsmMawsol C
+    (27) V4 -> . V4 V5
+
+    FI3L            reduce using rule 23 (V2 -> V2 V3 .)
+    $end            reduce using rule 23 (V2 -> V2 V3 .)
+    ISM             reduce using rule 23 (V2 -> V2 V3 .)
+    IsmMawsol       shift and go to state 24
+
+    V4                             shift and go to state 34
+
+state 33
+
+    (24) V3 -> FI3L . 7ARF MOUBTADAA KHABAR
+
+    7ARF            shift and go to state 73
+
+
+state 34
+
+    (25) V3 -> V3 V4 .
+    (27) V4 -> V4 . V5
+    (28) V5 -> . T T IsmMawsol 7ARF FI3L
+    (29) V5 -> . V5 V6
+    (59) T -> . FI3L
+    (60) T -> . ISM
+
+  ! shift/reduce conflict for FI3L resolved as shift
+  ! shift/reduce conflict for ISM resolved as shift
+    IsmMawsol       reduce using rule 25 (V3 -> V3 V4 .)
+    $end            reduce using rule 25 (V3 -> V3 V4 .)
+    FI3L            shift and go to state 31
+    ISM             shift and go to state 23
+
+  ! FI3L            [ reduce using rule 25 (V3 -> V3 V4 .) ]
+  ! ISM             [ reduce using rule 25 (V3 -> V3 V4 .) ]
+
+    V5                             shift and go to state 35
+    T                              shift and go to state 36
+
+state 35
+
+    (27) V4 -> V4 V5 .
+    (29) V5 -> V5 . V6
+    (30) V6 -> . 7ARF 7ARF ISM 7ARF FI3L
+    (31) V6 -> . V6 V7
+
+    FI3L            reduce using rule 27 (V4 -> V4 V5 .)
+    ISM             reduce using rule 27 (V4 -> V4 V5 .)
+    $end            reduce using rule 27 (V4 -> V4 V5 .)
+    IsmMawsol       reduce using rule 27 (V4 -> V4 V5 .)
+    7ARF            shift and go to state 38
+
+    V6                             shift and go to state 37
+
+state 36
+
+    (28) V5 -> T . T IsmMawsol 7ARF FI3L
+    (59) T -> . FI3L
+    (60) T -> . ISM
+
+    FI3L            shift and go to state 31
+    ISM             shift and go to state 23
+
+    T                              shift and go to state 74
+
+state 37
+
+    (29) V5 -> V5 V6 .
+    (31) V6 -> V6 . V7
+    (32) V7 -> . 7ARF FI3L DAMIR FI3L
+    (33) V7 -> . V7 V8
+
+  ! shift/reduce conflict for 7ARF resolved as shift
+    $end            reduce using rule 29 (V5 -> V5 V6 .)
+    FI3L            reduce using rule 29 (V5 -> V5 V6 .)
+    ISM             reduce using rule 29 (V5 -> V5 V6 .)
+    IsmMawsol       reduce using rule 29 (V5 -> V5 V6 .)
+    7ARF            shift and go to state 40
+
+  ! 7ARF            [ reduce using rule 29 (V5 -> V5 V6 .) ]
+
+    V7                             shift and go to state 39
+
+state 38
+
+    (30) V6 -> 7ARF . 7ARF ISM 7ARF FI3L
+
+    7ARF            shift and go to state 75
+
+
+state 39
+
+    (31) V6 -> V6 V7 .
+    (33) V7 -> V7 . V8
+    (34) V8 -> . 7ARF 7ARF ISM ISM
+    (35) V8 -> . V8 V9
+
+  ! shift/reduce conflict for 7ARF resolved as shift
+    $end            reduce using rule 31 (V6 -> V6 V7 .)
+    FI3L            reduce using rule 31 (V6 -> V6 V7 .)
+    ISM             reduce using rule 31 (V6 -> V6 V7 .)
+    IsmMawsol       reduce using rule 31 (V6 -> V6 V7 .)
+    7ARF            shift and go to state 42
+
+  ! 7ARF            [ reduce using rule 31 (V6 -> V6 V7 .) ]
+
+    V8                             shift and go to state 41
+
+state 40
+
+    (32) V7 -> 7ARF . FI3L DAMIR FI3L
+
+    FI3L            shift and go to state 76
+
+
+state 41
+
+    (33) V7 -> V7 V8 .
+    (35) V8 -> V8 . V9
+    (36) V9 -> . 7ARF FI3L DAMIR IsmMawsol FI3L
+    (37) V9 -> . V9 V10
+
+  ! shift/reduce conflict for 7ARF resolved as shift
+    $end            reduce using rule 33 (V7 -> V7 V8 .)
+    FI3L            reduce using rule 33 (V7 -> V7 V8 .)
+    ISM             reduce using rule 33 (V7 -> V7 V8 .)
+    IsmMawsol       reduce using rule 33 (V7 -> V7 V8 .)
+    7ARF            shift and go to state 44
+
+  ! 7ARF            [ reduce using rule 33 (V7 -> V7 V8 .) ]
+
+    V9                             shift and go to state 43
+
+state 42
+
+    (34) V8 -> 7ARF . 7ARF ISM ISM
+
+    7ARF            shift and go to state 77
+
+
+state 43
+
+    (35) V8 -> V8 V9 .
+    (37) V9 -> V9 . V10
+    (38) V10 -> . MAF3OULBIH DARFZ FI3L
+    (39) V10 -> . V10 V11
+
+    7ARF            reduce using rule 35 (V8 -> V8 V9 .)
+    $end            reduce using rule 35 (V8 -> V8 V9 .)
+    FI3L            reduce using rule 35 (V8 -> V8 V9 .)
+    ISM             reduce using rule 35 (V8 -> V8 V9 .)
+    IsmMawsol       reduce using rule 35 (V8 -> V8 V9 .)
+    MAF3OULBIH      shift and go to state 27
+
+    V10                            shift and go to state 45
+
+state 44
+
+    (36) V9 -> 7ARF . FI3L DAMIR IsmMawsol FI3L
+
+    FI3L            shift and go to state 78
+
+
+state 45
+
+    (37) V9 -> V9 V10 .
+    (39) V10 -> V10 . V11
+    (40) V11 -> . 7ARF FI3L DAMIR 7ARF FI3L J
+    (41) V11 -> . V11 V12
+
+  ! shift/reduce conflict for 7ARF resolved as shift
+    MAF3OULBIH      reduce using rule 37 (V9 -> V9 V10 .)
+    $end            reduce using rule 37 (V9 -> V9 V10 .)
+    FI3L            reduce using rule 37 (V9 -> V9 V10 .)
+    ISM             reduce using rule 37 (V9 -> V9 V10 .)
+    IsmMawsol       reduce using rule 37 (V9 -> V9 V10 .)
+    7ARF            shift and go to state 47
+
+  ! 7ARF            [ reduce using rule 37 (V9 -> V9 V10 .) ]
+
+    V11                            shift and go to state 46
+
+state 46
+
+    (39) V10 -> V10 V11 .
+    (41) V11 -> V11 . V12
+    (42) V12 -> . 7ARF FI3L J
+    (43) V12 -> . V12 V13
+
+  ! shift/reduce conflict for 7ARF resolved as shift
+    $end            reduce using rule 39 (V10 -> V10 V11 .)
+    MAF3OULBIH      reduce using rule 39 (V10 -> V10 V11 .)
+    FI3L            reduce using rule 39 (V10 -> V10 V11 .)
+    ISM             reduce using rule 39 (V10 -> V10 V11 .)
+    IsmMawsol       reduce using rule 39 (V10 -> V10 V11 .)
+    7ARF            shift and go to state 49
+
+  ! 7ARF            [ reduce using rule 39 (V10 -> V10 V11 .) ]
+
+    V12                            shift and go to state 48
+
+state 47
+
+    (40) V11 -> 7ARF . FI3L DAMIR 7ARF FI3L J
+
+    FI3L            shift and go to state 79
+
+
+state 48
+
+    (41) V11 -> V11 V12 .
+    (43) V12 -> V12 . V13
+    (44) V13 -> . 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L
+    (45) V13 -> . V13 V14
+
+  ! shift/reduce conflict for 7ARF resolved as shift
+    $end            reduce using rule 41 (V11 -> V11 V12 .)
+    MAF3OULBIH      reduce using rule 41 (V11 -> V11 V12 .)
+    FI3L            reduce using rule 41 (V11 -> V11 V12 .)
+    ISM             reduce using rule 41 (V11 -> V11 V12 .)
+    IsmMawsol       reduce using rule 41 (V11 -> V11 V12 .)
+    7ARF            shift and go to state 51
+
+  ! 7ARF            [ reduce using rule 41 (V11 -> V11 V12 .) ]
+
+    V13                            shift and go to state 50
+
+state 49
+
+    (42) V12 -> 7ARF . FI3L J
+
+    FI3L            shift and go to state 80
+
+
+state 50
+
+    (43) V12 -> V12 V13 .
+    (45) V13 -> V13 . V14
+    (46) V14 -> . 7ARF 7ARF FI3L 7ARF 7ARF ISM FI3L
+    (47) V14 -> . V14 V15
+
+  ! shift/reduce conflict for 7ARF resolved as shift
+    $end            reduce using rule 43 (V12 -> V12 V13 .)
+    MAF3OULBIH      reduce using rule 43 (V12 -> V12 V13 .)
+    FI3L            reduce using rule 43 (V12 -> V12 V13 .)
+    ISM             reduce using rule 43 (V12 -> V12 V13 .)
+    IsmMawsol       reduce using rule 43 (V12 -> V12 V13 .)
+    7ARF            shift and go to state 53
+
+  ! 7ARF            [ reduce using rule 43 (V12 -> V12 V13 .) ]
+
+    V14                            shift and go to state 52
+
+state 51
+
+    (44) V13 -> 7ARF . FI3L DAMIR 7ARF FI3L 7ARF FI3L
+
+    FI3L            shift and go to state 81
+
+
+state 52
+
+    (45) V13 -> V13 V14 .
+    (47) V14 -> V14 . V15
+    (48) V15 -> . 7ARF 7ARF 7ARF 7ARF FI3L 7ARF FI3L J
+    (49) V15 -> . V15 V16
+
+  ! shift/reduce conflict for 7ARF resolved as shift
+    $end            reduce using rule 45 (V13 -> V13 V14 .)
+    MAF3OULBIH      reduce using rule 45 (V13 -> V13 V14 .)
+    FI3L            reduce using rule 45 (V13 -> V13 V14 .)
+    ISM             reduce using rule 45 (V13 -> V13 V14 .)
+    IsmMawsol       reduce using rule 45 (V13 -> V13 V14 .)
+    7ARF            shift and go to state 55
+
+  ! 7ARF            [ reduce using rule 45 (V13 -> V13 V14 .) ]
+
+    V15                            shift and go to state 54
+
+state 53
+
+    (46) V14 -> 7ARF . 7ARF FI3L 7ARF 7ARF ISM FI3L
+
+    7ARF            shift and go to state 82
+
+
+state 54
+
+    (47) V14 -> V14 V15 .
+    (49) V15 -> V15 . V16
+    (50) V16 -> . BADAL NA3T NA3T
+    (51) V16 -> . V16 V17
+
+    7ARF            reduce using rule 47 (V14 -> V14 V15 .)
+    $end            reduce using rule 47 (V14 -> V14 V15 .)
+    MAF3OULBIH      reduce using rule 47 (V14 -> V14 V15 .)
+    FI3L            reduce using rule 47 (V14 -> V14 V15 .)
+    ISM             reduce using rule 47 (V14 -> V14 V15 .)
+    IsmMawsol       reduce using rule 47 (V14 -> V14 V15 .)
+    BADAL           shift and go to state 28
+
+    V16                            shift and go to state 56
+
+state 55
+
+    (48) V15 -> 7ARF . 7ARF 7ARF 7ARF FI3L 7ARF FI3L J
+
+    7ARF            shift and go to state 83
+
+
+state 56
+
+    (49) V15 -> V15 V16 .
+    (51) V16 -> V16 . V17
+    (52) V17 -> . 7ARF 7ARF FI3L MAF3OULBIH DAMIR
+    (53) V17 -> . V17 V18
+
+  ! shift/reduce conflict for 7ARF resolved as shift
+    BADAL           reduce using rule 49 (V15 -> V15 V16 .)
+    $end            reduce using rule 49 (V15 -> V15 V16 .)
+    MAF3OULBIH      reduce using rule 49 (V15 -> V15 V16 .)
+    FI3L            reduce using rule 49 (V15 -> V15 V16 .)
+    ISM             reduce using rule 49 (V15 -> V15 V16 .)
+    IsmMawsol       reduce using rule 49 (V15 -> V15 V16 .)
+    7ARF            shift and go to state 58
+
+  ! 7ARF            [ reduce using rule 49 (V15 -> V15 V16 .) ]
+
+    V17                            shift and go to state 57
+
+state 57
+
+    (51) V16 -> V16 V17 .
+    (53) V17 -> V17 . V18
+    (54) V18 -> . 7ARF FI3L MAF3OULBIH
+    (55) V18 -> . V18 V19
+
+  ! shift/reduce conflict for 7ARF resolved as shift
+    $end            reduce using rule 51 (V16 -> V16 V17 .)
+    BADAL           reduce using rule 51 (V16 -> V16 V17 .)
+    MAF3OULBIH      reduce using rule 51 (V16 -> V16 V17 .)
+    FI3L            reduce using rule 51 (V16 -> V16 V17 .)
+    ISM             reduce using rule 51 (V16 -> V16 V17 .)
+    IsmMawsol       reduce using rule 51 (V16 -> V16 V17 .)
+    7ARF            shift and go to state 60
+
+  ! 7ARF            [ reduce using rule 51 (V16 -> V16 V17 .) ]
+
+    V18                            shift and go to state 59
+
+state 58
+
+    (52) V17 -> 7ARF . 7ARF FI3L MAF3OULBIH DAMIR
+
+    7ARF            shift and go to state 84
+
+
+state 59
+
+    (53) V17 -> V17 V18 .
+    (55) V18 -> V18 . V19
+    (56) V19 -> . 7ARF 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L
+
+  ! shift/reduce conflict for 7ARF resolved as shift
+    $end            reduce using rule 53 (V17 -> V17 V18 .)
+    BADAL           reduce using rule 53 (V17 -> V17 V18 .)
+    MAF3OULBIH      reduce using rule 53 (V17 -> V17 V18 .)
+    FI3L            reduce using rule 53 (V17 -> V17 V18 .)
+    ISM             reduce using rule 53 (V17 -> V17 V18 .)
+    IsmMawsol       reduce using rule 53 (V17 -> V17 V18 .)
+    7ARF            shift and go to state 62
+
+  ! 7ARF            [ reduce using rule 53 (V17 -> V17 V18 .) ]
+
+    V19                            shift and go to state 61
+
+state 60
+
+    (54) V18 -> 7ARF . FI3L MAF3OULBIH
+
+    FI3L            shift and go to state 85
+
+
+state 61
+
+    (55) V18 -> V18 V19 .
+
+    7ARF            reduce using rule 55 (V18 -> V18 V19 .)
+    $end            reduce using rule 55 (V18 -> V18 V19 .)
+    BADAL           reduce using rule 55 (V18 -> V18 V19 .)
+    MAF3OULBIH      reduce using rule 55 (V18 -> V18 V19 .)
+    FI3L            reduce using rule 55 (V18 -> V18 V19 .)
+    ISM             reduce using rule 55 (V18 -> V18 V19 .)
+    IsmMawsol       reduce using rule 55 (V18 -> V18 V19 .)
+
+
+state 62
+
+    (56) V19 -> 7ARF . 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L
+
+    7ARF            shift and go to state 86
+
+
+state 63
+
+    (20) V1 -> FI3L 7ARF . IsmMajror ISM IsmMawsol FI3L
+    (24) V3 -> FI3L 7ARF . MOUBTADAA KHABAR
+
+    IsmMajror       shift and go to state 87
+    MOUBTADAA       shift and go to state 88
+
+
+state 64
+
+    (30) V6 -> 7ARF 7ARF . ISM 7ARF FI3L
+    (34) V8 -> 7ARF 7ARF . ISM ISM
+    (46) V14 -> 7ARF 7ARF . FI3L 7ARF 7ARF ISM FI3L
+    (48) V15 -> 7ARF 7ARF . 7ARF 7ARF FI3L 7ARF FI3L J
+    (52) V17 -> 7ARF 7ARF . FI3L MAF3OULBIH DAMIR
+    (56) V19 -> 7ARF 7ARF . FI3L DAMIR 7ARF FI3L 7ARF FI3L
+
+    ISM             shift and go to state 90
+    FI3L            shift and go to state 91
+    7ARF            shift and go to state 89
+
+
+state 65
+
+    (32) V7 -> 7ARF FI3L . DAMIR FI3L
+    (36) V9 -> 7ARF FI3L . DAMIR IsmMawsol FI3L
+    (40) V11 -> 7ARF FI3L . DAMIR 7ARF FI3L J
+    (42) V12 -> 7ARF FI3L . J
+    (44) V13 -> 7ARF FI3L . DAMIR 7ARF FI3L 7ARF FI3L
+    (54) V18 -> 7ARF FI3L . MAF3OULBIH
+    (61) J -> . 7ARF IsmMajror
+
+    DAMIR           shift and go to state 92
+    MAF3OULBIH      shift and go to state 94
+    7ARF            shift and go to state 68
+
+    J                              shift and go to state 93
+
+state 66
+
+    (26) V4 -> IsmMawsol C .
+
+    FI3L            reduce using rule 26 (V4 -> IsmMawsol C .)
+    ISM             reduce using rule 26 (V4 -> IsmMawsol C .)
+    $end            reduce using rule 26 (V4 -> IsmMawsol C .)
+    IsmMawsol       reduce using rule 26 (V4 -> IsmMawsol C .)
+
+
+state 67
+
+    (28) V5 -> T T . IsmMawsol 7ARF FI3L
+    (58) C -> T T . J
+    (61) J -> . 7ARF IsmMajror
+
+    IsmMawsol       shift and go to state 95
+    7ARF            shift and go to state 68
+
+    J                              shift and go to state 96
+
+state 68
+
+    (61) J -> 7ARF . IsmMajror
+
+    IsmMajror       shift and go to state 97
+
+
+state 69
+
+    (57) C -> T J .
+
+    FI3L            reduce using rule 57 (C -> T J .)
+    $end            reduce using rule 57 (C -> T J .)
+    ISM             reduce using rule 57 (C -> T J .)
+    IsmMawsol       reduce using rule 57 (C -> T J .)
+
+
+state 70
+
+    (38) V10 -> MAF3OULBIH DARFZ . FI3L
+
+    FI3L            shift and go to state 98
+
+
+state 71
+
+    (50) V16 -> BADAL NA3T . NA3T
+
+    NA3T            shift and go to state 99
+
+
+state 72
+
+    (58) C -> T T . J
+    (61) J -> . 7ARF IsmMajror
+
+    7ARF            shift and go to state 68
+
+    J                              shift and go to state 96
+
+state 73
+
+    (24) V3 -> FI3L 7ARF . MOUBTADAA KHABAR
+
+    MOUBTADAA       shift and go to state 88
+
+
+state 74
+
+    (28) V5 -> T T . IsmMawsol 7ARF FI3L
+
+    IsmMawsol       shift and go to state 95
+
+
+state 75
+
+    (30) V6 -> 7ARF 7ARF . ISM 7ARF FI3L
+
+    ISM             shift and go to state 100
+
+
+state 76
+
+    (32) V7 -> 7ARF FI3L . DAMIR FI3L
+
+    DAMIR           shift and go to state 101
+
+
+state 77
+
+    (34) V8 -> 7ARF 7ARF . ISM ISM
+
+    ISM             shift and go to state 102
+
+
+state 78
+
+    (36) V9 -> 7ARF FI3L . DAMIR IsmMawsol FI3L
+
+    DAMIR           shift and go to state 103
+
+
+state 79
+
+    (40) V11 -> 7ARF FI3L . DAMIR 7ARF FI3L J
+
+    DAMIR           shift and go to state 104
+
+
+state 80
+
+    (42) V12 -> 7ARF FI3L . J
+    (61) J -> . 7ARF IsmMajror
+
+    7ARF            shift and go to state 68
+
+    J                              shift and go to state 93
+
+state 81
+
+    (44) V13 -> 7ARF FI3L . DAMIR 7ARF FI3L 7ARF FI3L
+
+    DAMIR           shift and go to state 105
+
+
+state 82
+
+    (46) V14 -> 7ARF 7ARF . FI3L 7ARF 7ARF ISM FI3L
+
+    FI3L            shift and go to state 106
+
+
+state 83
+
+    (48) V15 -> 7ARF 7ARF . 7ARF 7ARF FI3L 7ARF FI3L J
+
+    7ARF            shift and go to state 89
+
+
+state 84
+
+    (52) V17 -> 7ARF 7ARF . FI3L MAF3OULBIH DAMIR
+
+    FI3L            shift and go to state 107
+
+
+state 85
+
+    (54) V18 -> 7ARF FI3L . MAF3OULBIH
+
+    MAF3OULBIH      shift and go to state 94
+
+
+state 86
+
+    (56) V19 -> 7ARF 7ARF . FI3L DAMIR 7ARF FI3L 7ARF FI3L
+
+    FI3L            shift and go to state 108
+
+
+state 87
+
+    (20) V1 -> FI3L 7ARF IsmMajror . ISM IsmMawsol FI3L
+
+    ISM             shift and go to state 109
+
+
+state 88
+
+    (24) V3 -> FI3L 7ARF MOUBTADAA . KHABAR
+
+    KHABAR          shift and go to state 110
+
+
+state 89
+
+    (48) V15 -> 7ARF 7ARF 7ARF . 7ARF FI3L 7ARF FI3L J
+
+    7ARF            shift and go to state 111
+
+
+state 90
+
+    (30) V6 -> 7ARF 7ARF ISM . 7ARF FI3L
+    (34) V8 -> 7ARF 7ARF ISM . ISM
+
+    7ARF            shift and go to state 112
+    ISM             shift and go to state 113
+
+
+state 91
+
+    (46) V14 -> 7ARF 7ARF FI3L . 7ARF 7ARF ISM FI3L
+    (52) V17 -> 7ARF 7ARF FI3L . MAF3OULBIH DAMIR
+    (56) V19 -> 7ARF 7ARF FI3L . DAMIR 7ARF FI3L 7ARF FI3L
+
+    7ARF            shift and go to state 114
+    MAF3OULBIH      shift and go to state 115
+    DAMIR           shift and go to state 116
+
+
+state 92
+
+    (32) V7 -> 7ARF FI3L DAMIR . FI3L
+    (36) V9 -> 7ARF FI3L DAMIR . IsmMawsol FI3L
+    (40) V11 -> 7ARF FI3L DAMIR . 7ARF FI3L J
+    (44) V13 -> 7ARF FI3L DAMIR . 7ARF FI3L 7ARF FI3L
+
+    FI3L            shift and go to state 118
+    IsmMawsol       shift and go to state 119
+    7ARF            shift and go to state 117
+
+
+state 93
+
+    (42) V12 -> 7ARF FI3L J .
+
+    7ARF            reduce using rule 42 (V12 -> 7ARF FI3L J .)
+    $end            reduce using rule 42 (V12 -> 7ARF FI3L J .)
+    MAF3OULBIH      reduce using rule 42 (V12 -> 7ARF FI3L J .)
+    FI3L            reduce using rule 42 (V12 -> 7ARF FI3L J .)
+    ISM             reduce using rule 42 (V12 -> 7ARF FI3L J .)
+    IsmMawsol       reduce using rule 42 (V12 -> 7ARF FI3L J .)
+
+
+state 94
+
+    (54) V18 -> 7ARF FI3L MAF3OULBIH .
+
+    7ARF            reduce using rule 54 (V18 -> 7ARF FI3L MAF3OULBIH .)
+    $end            reduce using rule 54 (V18 -> 7ARF FI3L MAF3OULBIH .)
+    BADAL           reduce using rule 54 (V18 -> 7ARF FI3L MAF3OULBIH .)
+    MAF3OULBIH      reduce using rule 54 (V18 -> 7ARF FI3L MAF3OULBIH .)
+    FI3L            reduce using rule 54 (V18 -> 7ARF FI3L MAF3OULBIH .)
+    ISM             reduce using rule 54 (V18 -> 7ARF FI3L MAF3OULBIH .)
+    IsmMawsol       reduce using rule 54 (V18 -> 7ARF FI3L MAF3OULBIH .)
+
+
+state 95
+
+    (28) V5 -> T T IsmMawsol . 7ARF FI3L
+
+    7ARF            shift and go to state 120
+
+
+state 96
+
+    (58) C -> T T J .
+
+    FI3L            reduce using rule 58 (C -> T T J .)
+    $end            reduce using rule 58 (C -> T T J .)
+    ISM             reduce using rule 58 (C -> T T J .)
+    IsmMawsol       reduce using rule 58 (C -> T T J .)
+
+
+state 97
+
+    (61) J -> 7ARF IsmMajror .
+
+    FI3L            reduce using rule 61 (J -> 7ARF IsmMajror .)
+    $end            reduce using rule 61 (J -> 7ARF IsmMajror .)
+    ISM             reduce using rule 61 (J -> 7ARF IsmMajror .)
+    IsmMawsol       reduce using rule 61 (J -> 7ARF IsmMajror .)
+    7ARF            reduce using rule 61 (J -> 7ARF IsmMajror .)
+    MAF3OULBIH      reduce using rule 61 (J -> 7ARF IsmMajror .)
+    BADAL           reduce using rule 61 (J -> 7ARF IsmMajror .)
+
+
+state 98
+
+    (38) V10 -> MAF3OULBIH DARFZ FI3L .
+
+    7ARF            reduce using rule 38 (V10 -> MAF3OULBIH DARFZ FI3L .)
+    $end            reduce using rule 38 (V10 -> MAF3OULBIH DARFZ FI3L .)
+    MAF3OULBIH      reduce using rule 38 (V10 -> MAF3OULBIH DARFZ FI3L .)
+    FI3L            reduce using rule 38 (V10 -> MAF3OULBIH DARFZ FI3L .)
+    ISM             reduce using rule 38 (V10 -> MAF3OULBIH DARFZ FI3L .)
+    IsmMawsol       reduce using rule 38 (V10 -> MAF3OULBIH DARFZ FI3L .)
+
+
+state 99
+
+    (50) V16 -> BADAL NA3T NA3T .
+
+    7ARF            reduce using rule 50 (V16 -> BADAL NA3T NA3T .)
+    $end            reduce using rule 50 (V16 -> BADAL NA3T NA3T .)
+    BADAL           reduce using rule 50 (V16 -> BADAL NA3T NA3T .)
+    MAF3OULBIH      reduce using rule 50 (V16 -> BADAL NA3T NA3T .)
+    FI3L            reduce using rule 50 (V16 -> BADAL NA3T NA3T .)
+    ISM             reduce using rule 50 (V16 -> BADAL NA3T NA3T .)
+    IsmMawsol       reduce using rule 50 (V16 -> BADAL NA3T NA3T .)
+
+
+state 100
+
+    (30) V6 -> 7ARF 7ARF ISM . 7ARF FI3L
+
+    7ARF            shift and go to state 112
+
+
+state 101
+
+    (32) V7 -> 7ARF FI3L DAMIR . FI3L
+
+    FI3L            shift and go to state 118
+
+
+state 102
+
+    (34) V8 -> 7ARF 7ARF ISM . ISM
+
+    ISM             shift and go to state 113
+
+
+state 103
+
+    (36) V9 -> 7ARF FI3L DAMIR . IsmMawsol FI3L
+
+    IsmMawsol       shift and go to state 119
+
+
+state 104
+
+    (40) V11 -> 7ARF FI3L DAMIR . 7ARF FI3L J
+
+    7ARF            shift and go to state 121
+
+
+state 105
+
+    (44) V13 -> 7ARF FI3L DAMIR . 7ARF FI3L 7ARF FI3L
+
+    7ARF            shift and go to state 122
+
+
+state 106
+
+    (46) V14 -> 7ARF 7ARF FI3L . 7ARF 7ARF ISM FI3L
+
+    7ARF            shift and go to state 114
+
+
+state 107
+
+    (52) V17 -> 7ARF 7ARF FI3L . MAF3OULBIH DAMIR
+
+    MAF3OULBIH      shift and go to state 115
+
+
+state 108
+
+    (56) V19 -> 7ARF 7ARF FI3L . DAMIR 7ARF FI3L 7ARF FI3L
+
+    DAMIR           shift and go to state 116
+
+
+state 109
+
+    (20) V1 -> FI3L 7ARF IsmMajror ISM . IsmMawsol FI3L
+
+    IsmMawsol       shift and go to state 123
+
+
+state 110
+
+    (24) V3 -> FI3L 7ARF MOUBTADAA KHABAR .
+
+    IsmMawsol       reduce using rule 24 (V3 -> FI3L 7ARF MOUBTADAA KHABAR .)
+    $end            reduce using rule 24 (V3 -> FI3L 7ARF MOUBTADAA KHABAR .)
+    FI3L            reduce using rule 24 (V3 -> FI3L 7ARF MOUBTADAA KHABAR .)
+    ISM             reduce using rule 24 (V3 -> FI3L 7ARF MOUBTADAA KHABAR .)
+
+
+state 111
+
+    (48) V15 -> 7ARF 7ARF 7ARF 7ARF . FI3L 7ARF FI3L J
+
+    FI3L            shift and go to state 124
+
+
+state 112
+
+    (30) V6 -> 7ARF 7ARF ISM 7ARF . FI3L
+
+    FI3L            shift and go to state 125
+
+
+state 113
+
+    (34) V8 -> 7ARF 7ARF ISM ISM .
+
+    7ARF            reduce using rule 34 (V8 -> 7ARF 7ARF ISM ISM .)
+    $end            reduce using rule 34 (V8 -> 7ARF 7ARF ISM ISM .)
+    FI3L            reduce using rule 34 (V8 -> 7ARF 7ARF ISM ISM .)
+    ISM             reduce using rule 34 (V8 -> 7ARF 7ARF ISM ISM .)
+    IsmMawsol       reduce using rule 34 (V8 -> 7ARF 7ARF ISM ISM .)
+
+
+state 114
+
+    (46) V14 -> 7ARF 7ARF FI3L 7ARF . 7ARF ISM FI3L
+
+    7ARF            shift and go to state 126
+
+
+state 115
+
+    (52) V17 -> 7ARF 7ARF FI3L MAF3OULBIH . DAMIR
+
+    DAMIR           shift and go to state 127
+
+
+state 116
+
+    (56) V19 -> 7ARF 7ARF FI3L DAMIR . 7ARF FI3L 7ARF FI3L
+
+    7ARF            shift and go to state 128
+
+
+state 117
+
+    (40) V11 -> 7ARF FI3L DAMIR 7ARF . FI3L J
+    (44) V13 -> 7ARF FI3L DAMIR 7ARF . FI3L 7ARF FI3L
+
+    FI3L            shift and go to state 129
+
+
+state 118
+
+    (32) V7 -> 7ARF FI3L DAMIR FI3L .
+
+    7ARF            reduce using rule 32 (V7 -> 7ARF FI3L DAMIR FI3L .)
+    $end            reduce using rule 32 (V7 -> 7ARF FI3L DAMIR FI3L .)
+    FI3L            reduce using rule 32 (V7 -> 7ARF FI3L DAMIR FI3L .)
+    ISM             reduce using rule 32 (V7 -> 7ARF FI3L DAMIR FI3L .)
+    IsmMawsol       reduce using rule 32 (V7 -> 7ARF FI3L DAMIR FI3L .)
+
+
+state 119
+
+    (36) V9 -> 7ARF FI3L DAMIR IsmMawsol . FI3L
+
+    FI3L            shift and go to state 130
+
+
+state 120
+
+    (28) V5 -> T T IsmMawsol 7ARF . FI3L
+
+    FI3L            shift and go to state 131
+
+
+state 121
+
+    (40) V11 -> 7ARF FI3L DAMIR 7ARF . FI3L J
+
+    FI3L            shift and go to state 132
+
+
+state 122
+
+    (44) V13 -> 7ARF FI3L DAMIR 7ARF . FI3L 7ARF FI3L
+
+    FI3L            shift and go to state 133
+
+
+state 123
+
+    (20) V1 -> FI3L 7ARF IsmMajror ISM IsmMawsol . FI3L
+
+    FI3L            shift and go to state 134
+
+
+state 124
+
+    (48) V15 -> 7ARF 7ARF 7ARF 7ARF FI3L . 7ARF FI3L J
+
+    7ARF            shift and go to state 135
+
+
+state 125
+
+    (30) V6 -> 7ARF 7ARF ISM 7ARF FI3L .
+
+    7ARF            reduce using rule 30 (V6 -> 7ARF 7ARF ISM 7ARF FI3L .)
+    $end            reduce using rule 30 (V6 -> 7ARF 7ARF ISM 7ARF FI3L .)
+    FI3L            reduce using rule 30 (V6 -> 7ARF 7ARF ISM 7ARF FI3L .)
+    ISM             reduce using rule 30 (V6 -> 7ARF 7ARF ISM 7ARF FI3L .)
+    IsmMawsol       reduce using rule 30 (V6 -> 7ARF 7ARF ISM 7ARF FI3L .)
+
+
+state 126
+
+    (46) V14 -> 7ARF 7ARF FI3L 7ARF 7ARF . ISM FI3L
+
+    ISM             shift and go to state 136
+
+
+state 127
+
+    (52) V17 -> 7ARF 7ARF FI3L MAF3OULBIH DAMIR .
+
+    7ARF            reduce using rule 52 (V17 -> 7ARF 7ARF FI3L MAF3OULBIH DAMIR .)
+    $end            reduce using rule 52 (V17 -> 7ARF 7ARF FI3L MAF3OULBIH DAMIR .)
+    BADAL           reduce using rule 52 (V17 -> 7ARF 7ARF FI3L MAF3OULBIH DAMIR .)
+    MAF3OULBIH      reduce using rule 52 (V17 -> 7ARF 7ARF FI3L MAF3OULBIH DAMIR .)
+    FI3L            reduce using rule 52 (V17 -> 7ARF 7ARF FI3L MAF3OULBIH DAMIR .)
+    ISM             reduce using rule 52 (V17 -> 7ARF 7ARF FI3L MAF3OULBIH DAMIR .)
+    IsmMawsol       reduce using rule 52 (V17 -> 7ARF 7ARF FI3L MAF3OULBIH DAMIR .)
+
+
+state 128
+
+    (56) V19 -> 7ARF 7ARF FI3L DAMIR 7ARF . FI3L 7ARF FI3L
+
+    FI3L            shift and go to state 137
+
+
+state 129
+
+    (40) V11 -> 7ARF FI3L DAMIR 7ARF FI3L . J
+    (44) V13 -> 7ARF FI3L DAMIR 7ARF FI3L . 7ARF FI3L
+    (61) J -> . 7ARF IsmMajror
+
+    7ARF            shift and go to state 138
+
+    J                              shift and go to state 139
+
+state 130
+
+    (36) V9 -> 7ARF FI3L DAMIR IsmMawsol FI3L .
+
+    MAF3OULBIH      reduce using rule 36 (V9 -> 7ARF FI3L DAMIR IsmMawsol FI3L .)
+    $end            reduce using rule 36 (V9 -> 7ARF FI3L DAMIR IsmMawsol FI3L .)
+    7ARF            reduce using rule 36 (V9 -> 7ARF FI3L DAMIR IsmMawsol FI3L .)
+    FI3L            reduce using rule 36 (V9 -> 7ARF FI3L DAMIR IsmMawsol FI3L .)
+    ISM             reduce using rule 36 (V9 -> 7ARF FI3L DAMIR IsmMawsol FI3L .)
+    IsmMawsol       reduce using rule 36 (V9 -> 7ARF FI3L DAMIR IsmMawsol FI3L .)
+
+
+state 131
+
+    (28) V5 -> T T IsmMawsol 7ARF FI3L .
+
+    7ARF            reduce using rule 28 (V5 -> T T IsmMawsol 7ARF FI3L .)
+    $end            reduce using rule 28 (V5 -> T T IsmMawsol 7ARF FI3L .)
+    FI3L            reduce using rule 28 (V5 -> T T IsmMawsol 7ARF FI3L .)
+    ISM             reduce using rule 28 (V5 -> T T IsmMawsol 7ARF FI3L .)
+    IsmMawsol       reduce using rule 28 (V5 -> T T IsmMawsol 7ARF FI3L .)
+
+
+state 132
+
+    (40) V11 -> 7ARF FI3L DAMIR 7ARF FI3L . J
+    (61) J -> . 7ARF IsmMajror
+
+    7ARF            shift and go to state 68
+
+    J                              shift and go to state 139
+
+state 133
+
+    (44) V13 -> 7ARF FI3L DAMIR 7ARF FI3L . 7ARF FI3L
+
+    7ARF            shift and go to state 140
+
+
+state 134
+
+    (20) V1 -> FI3L 7ARF IsmMajror ISM IsmMawsol FI3L .
+
+    FI3L            reduce using rule 20 (V1 -> FI3L 7ARF IsmMajror ISM IsmMawsol FI3L .)
+    ISM             reduce using rule 20 (V1 -> FI3L 7ARF IsmMajror ISM IsmMawsol FI3L .)
+    $end            reduce using rule 20 (V1 -> FI3L 7ARF IsmMajror ISM IsmMawsol FI3L .)
+
+
+state 135
+
+    (48) V15 -> 7ARF 7ARF 7ARF 7ARF FI3L 7ARF . FI3L J
+
+    FI3L            shift and go to state 141
+
+
+state 136
+
+    (46) V14 -> 7ARF 7ARF FI3L 7ARF 7ARF ISM . FI3L
+
+    FI3L            shift and go to state 142
+
+
+state 137
+
+    (56) V19 -> 7ARF 7ARF FI3L DAMIR 7ARF FI3L . 7ARF FI3L
+
+    7ARF            shift and go to state 143
+
+
+state 138
+
+    (44) V13 -> 7ARF FI3L DAMIR 7ARF FI3L 7ARF . FI3L
+    (61) J -> 7ARF . IsmMajror
+
+    FI3L            shift and go to state 144
+    IsmMajror       shift and go to state 97
+
+
+state 139
+
+    (40) V11 -> 7ARF FI3L DAMIR 7ARF FI3L J .
+
+    7ARF            reduce using rule 40 (V11 -> 7ARF FI3L DAMIR 7ARF FI3L J .)
+    $end            reduce using rule 40 (V11 -> 7ARF FI3L DAMIR 7ARF FI3L J .)
+    MAF3OULBIH      reduce using rule 40 (V11 -> 7ARF FI3L DAMIR 7ARF FI3L J .)
+    FI3L            reduce using rule 40 (V11 -> 7ARF FI3L DAMIR 7ARF FI3L J .)
+    ISM             reduce using rule 40 (V11 -> 7ARF FI3L DAMIR 7ARF FI3L J .)
+    IsmMawsol       reduce using rule 40 (V11 -> 7ARF FI3L DAMIR 7ARF FI3L J .)
+
+
+state 140
+
+    (44) V13 -> 7ARF FI3L DAMIR 7ARF FI3L 7ARF . FI3L
+
+    FI3L            shift and go to state 144
+
+
+state 141
+
+    (48) V15 -> 7ARF 7ARF 7ARF 7ARF FI3L 7ARF FI3L . J
+    (61) J -> . 7ARF IsmMajror
+
+    7ARF            shift and go to state 68
+
+    J                              shift and go to state 145
+
+state 142
+
+    (46) V14 -> 7ARF 7ARF FI3L 7ARF 7ARF ISM FI3L .
+
+    7ARF            reduce using rule 46 (V14 -> 7ARF 7ARF FI3L 7ARF 7ARF ISM FI3L .)
+    $end            reduce using rule 46 (V14 -> 7ARF 7ARF FI3L 7ARF 7ARF ISM FI3L .)
+    MAF3OULBIH      reduce using rule 46 (V14 -> 7ARF 7ARF FI3L 7ARF 7ARF ISM FI3L .)
+    FI3L            reduce using rule 46 (V14 -> 7ARF 7ARF FI3L 7ARF 7ARF ISM FI3L .)
+    ISM             reduce using rule 46 (V14 -> 7ARF 7ARF FI3L 7ARF 7ARF ISM FI3L .)
+    IsmMawsol       reduce using rule 46 (V14 -> 7ARF 7ARF FI3L 7ARF 7ARF ISM FI3L .)
+
+
+state 143
+
+    (56) V19 -> 7ARF 7ARF FI3L DAMIR 7ARF FI3L 7ARF . FI3L
+
+    FI3L            shift and go to state 146
+
+
+state 144
+
+    (44) V13 -> 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L .
+
+    7ARF            reduce using rule 44 (V13 -> 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L .)
+    $end            reduce using rule 44 (V13 -> 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L .)
+    MAF3OULBIH      reduce using rule 44 (V13 -> 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L .)
+    FI3L            reduce using rule 44 (V13 -> 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L .)
+    ISM             reduce using rule 44 (V13 -> 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L .)
+    IsmMawsol       reduce using rule 44 (V13 -> 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L .)
+
+
+state 145
+
+    (48) V15 -> 7ARF 7ARF 7ARF 7ARF FI3L 7ARF FI3L J .
+
+    BADAL           reduce using rule 48 (V15 -> 7ARF 7ARF 7ARF 7ARF FI3L 7ARF FI3L J .)
+    $end            reduce using rule 48 (V15 -> 7ARF 7ARF 7ARF 7ARF FI3L 7ARF FI3L J .)
+    7ARF            reduce using rule 48 (V15 -> 7ARF 7ARF 7ARF 7ARF FI3L 7ARF FI3L J .)
+    MAF3OULBIH      reduce using rule 48 (V15 -> 7ARF 7ARF 7ARF 7ARF FI3L 7ARF FI3L J .)
+    FI3L            reduce using rule 48 (V15 -> 7ARF 7ARF 7ARF 7ARF FI3L 7ARF FI3L J .)
+    ISM             reduce using rule 48 (V15 -> 7ARF 7ARF 7ARF 7ARF FI3L 7ARF FI3L J .)
+    IsmMawsol       reduce using rule 48 (V15 -> 7ARF 7ARF 7ARF 7ARF FI3L 7ARF FI3L J .)
+
+
+state 146
+
+    (56) V19 -> 7ARF 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L .
+
+    $end            reduce using rule 56 (V19 -> 7ARF 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L .)
+    7ARF            reduce using rule 56 (V19 -> 7ARF 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L .)
+    BADAL           reduce using rule 56 (V19 -> 7ARF 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L .)
+    MAF3OULBIH      reduce using rule 56 (V19 -> 7ARF 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L .)
+    FI3L            reduce using rule 56 (V19 -> 7ARF 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L .)
+    ISM             reduce using rule 56 (V19 -> 7ARF 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L .)
+    IsmMawsol       reduce using rule 56 (V19 -> 7ARF 7ARF FI3L DAMIR 7ARF FI3L 7ARF FI3L .)
+
+WARNING: 
+WARNING: Conflicts:
+WARNING: 
+WARNING: shift/reduce conflict for 7ARF in state 21 resolved as shift
+WARNING: shift/reduce conflict for FI3L in state 29 resolved as shift
+WARNING: shift/reduce conflict for FI3L in state 34 resolved as shift
+WARNING: shift/reduce conflict for ISM in state 34 resolved as shift
+WARNING: shift/reduce conflict for 7ARF in state 37 resolved as shift
+WARNING: shift/reduce conflict for 7ARF in state 39 resolved as shift
+WARNING: shift/reduce conflict for 7ARF in state 41 resolved as shift
+WARNING: shift/reduce conflict for 7ARF in state 45 resolved as shift
+WARNING: shift/reduce conflict for 7ARF in state 46 resolved as shift
+WARNING: shift/reduce conflict for 7ARF in state 48 resolved as shift
+WARNING: shift/reduce conflict for 7ARF in state 50 resolved as shift
+WARNING: shift/reduce conflict for 7ARF in state 52 resolved as shift
+WARNING: shift/reduce conflict for 7ARF in state 56 resolved as shift
+WARNING: shift/reduce conflict for 7ARF in state 57 resolved as shift
+WARNING: shift/reduce conflict for 7ARF in state 59 resolved as shift
