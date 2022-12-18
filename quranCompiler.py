@@ -8,18 +8,18 @@ from pyarabic import *
 tokens = ['FI3L', '7ARF', 'IsmMajror','IsmMawsol','MAF3OULBIH','MOUBTADAA','KHABAR','ISM','DARFZ','BADAL','NA3T','DAMIR']
 
 t_ignore = ' \t'
-t_FI3L=u'اقْتَرِبْ|اسْجُدْ|تُطِعْ|نَدْعُ|يَدْعُ|نَسْفَعًا|يَرَى|يَنتَهِ|تَوَلَّى|كَذَّبَ|أَمَرَ|كَانَ|صَلَّى|يَنْهَى|رَأَيْ|اسْتَغْنَى|رَّآ|اقْرَأْ|خَلَقَ|عَلَّمَ|يَعْلَمْ|ليَطْغَى|أَرَأَيْتَ'
-t_7ARF=u'أَلَمْ|لْ|فَ|لا|سَ|أَنَّ|أَوْ|عَلَى|إِلَى|أَنَ|إِنَّ|كَلاَّ|بِ|وَ|لَمْ|مِنْ|إِن'
+t_FI3L=u'اقْتَرِبْ|اسْجُدْ|تُطِعْ|نَدْعُ|يَدْعُ|لَنَسْفَعًا|يَرَى|يَنتَهِ|تَوَلَّى|كَذَّبَ|أَمَرَ|كَانَ|صَلَّى|يَنْهَى|رَأَيْ|اسْتَغْنَى|رَّآ|اقْرَأْ|خَلَقَ|عَلَّمَ|يَعْلَمْ|لَيَطْغَى|أَرَأَيْتَ|خَلَق '
+t_7ARF=u'لَّمْ|أَلَمْ|لْ|فَ|لا|سَ|أَنَّ|أَوْ|عَلَى|إِلَى|أَنَ|إِنَّ|كَلاَّ|بِ|وَ|لَمْ|مِنْ|إِن|أَن|لَئِن'
 t_IsmMajror=u'النَّاصِيَةِ|التَّقْوَى|الْهُدَى|اسْمِ|عَلَقٍ|الْقَلَمِ'
 t_IsmMawsol=u'الَّذِي|مَا'
-t_MAF3OULBIH=u'الزَّبَانِيَةَ|نَادِيَ|عَبْدًاَ'
+t_MAF3OULBIH=u'الزَّبَانِيَةَ|نَادِيَه|عَبْدًا'
 t_MOUBTADAA=u'رَبُّكَ'
 t_KHABAR=u'الأَكْرَمُ'
 t_ISM=u'رَبِّكَ|الإِنسَانَ|الرُّجْعَى|اللَّهَ'
 t_DARFZ=u'إِذَا'
 t_BADAL=u'نَاصِيَةٍ'
 t_NA3T=u'خَاطِئَةٍ|كَاذِبَةٍ'
-t_DAMIR=u'ه|هُ|تَ'
+t_DAMIR=u'هُ|تَ'
 # t_lettre=u'[بتثجحخادذرزسأشصضطظعغفقكلمنهـوي]'
 
 def t_error(t):
@@ -100,7 +100,7 @@ def p_V5(p):
 def p_V6(p):
     '''V6 : 7ARF 7ARF ISM FI3L
           | V6 V7'''
-    if(len(p) == 6):
+    if(len(p) == 5):
         p[0] = p[1] + p[2] + p[3] + p[4]
         print('Verset 6 correct')
     else:
@@ -125,10 +125,10 @@ def p_V8(p):
         p[0] = p[1] + p[2] 
 
 def p_V9(p):
-    '''V9 : FI3L DAMIR IsmMawsol FI3L
+    '''V9 : FI3L IsmMawsol FI3L
           | V9 V10'''
-    if(len(p) == 6):
-        p[0] = p[1] + p[2] + p[3] + p[4]
+    if(len(p) == 4):
+        p[0] = p[1] + p[2] + p[3]
         print('Verset 9 correct')
     else:
         p[0] = p[1] + p[2] 
@@ -143,10 +143,10 @@ def p_V10(p):
         p[0] = p[1] + p[2] 
 
 def p_V11(p):
-    '''V11 : FI3L DAMIR 7ARF FI3L J
+    '''V11 : FI3L 7ARF FI3L J
            | V11 V12'''
-    if(len(p) == 7):
-        p[0] = p[1] + p[2] + p[3] + p[4] + p[5]
+    if(len(p) == 5):
+        p[0] = p[1] + p[2] + p[3] + p[4]
         print('Verset 11 correct')
     else:
         p[0] = p[1] + p[2] 
@@ -161,10 +161,10 @@ def p_V12(p):
         p[0] = p[1] + p[2] 
 
 def p_V13(p):
-    '''V13 : FI3L DAMIR 7ARF FI3L 7ARF FI3L
+    '''V13 : FI3L 7ARF FI3L 7ARF FI3L
            | V13 V14'''
-    if(len(p) == 8):
-        p[0] = p[1] + p[2] + p[3] + p[4] + p[5] + p[6]
+    if(len(p) == 6):
+        p[0] = p[1] + p[2] + p[3] + p[4] + p[5]
         print('Verset 13 correct')
     else:
         p[0] = p[1] + p[2] 
@@ -172,17 +172,17 @@ def p_V13(p):
 def p_V14(p):
     '''V14 : 7ARF FI3L 7ARF 7ARF ISM FI3L
            | V14 V15'''
-    if(len(p) == 8):
+    if(len(p) == 7):
         p[0] = p[1] + p[2] + p[3] + p[4] + p[5] + p[6]
         print('Verset 14 correct')
     else:
         p[0] = p[1] + p[2] 
 
 def p_V15(p):
-    '''V15 : 7ARF 7ARF 7ARF 7ARF FI3L 7ARF FI3L J
+    '''V15 : 7ARF 7ARF 7ARF FI3L FI3L J
            | V15 V16'''
-    if(len(p) == 9):
-        p[0] = p[1] + p[2] + p[3] + p[4] + p[5] + p[6] + p[7] + p[8]
+    if(len(p) == 7):
+        p[0] = p[1] + p[2] + p[3] + p[4] + p[5] + p[6]
         print('Verset 15 correct')
     else:
         p[0] = p[1] + p[2] 
@@ -196,10 +196,10 @@ def p_V16(p):
         p[0] = p[1] + p[2] 
 
 def p_V17(p):
-    '''V17 : 7ARF 7ARF FI3L MAF3OULBIH DAMIR
+    '''V17 : 7ARF 7ARF FI3L MAF3OULBIH
            | V17 V18'''
-    if(len(p) == 6):
-        p[0] = p[1] + p[2] + p[3] + p[4] + p[5]
+    if(len(p) == 5):
+        p[0] = p[1] + p[2] + p[3] + p[4]
         print('Verset 17 correct')
     else:
         p[0] = p[1] + p[2] 
